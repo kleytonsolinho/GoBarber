@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "history": "^5.0.0",
+    "react-router-dom": "^5.2.0",
+    "reactotron-react-js": "^3.3.7"
+  }
+}

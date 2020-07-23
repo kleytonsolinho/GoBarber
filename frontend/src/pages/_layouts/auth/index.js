@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { Wrapper, Content } from './styles';
 
-function AuthLayout({ children }) {
+export default function AuthLayout({ children }) {
   return (
     <Wrapper>
       <Content>
@@ -12,8 +12,6 @@ function AuthLayout({ children }) {
     </Wrapper>
   );
 }
-
-export default AuthLayout;
 
 AuthLayout.propTypes = {
   children: PropTypes.element.isRequired,
